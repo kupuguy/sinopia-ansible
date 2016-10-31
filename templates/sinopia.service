@@ -10,3 +10,6 @@ Restart=always
 User={{ sinopia_user }}
 Group={{ sinopia_user }}
 WorkingDirectory={{ sinopia_config }}
+
+[Install]
+WantedBy=multi-user.target

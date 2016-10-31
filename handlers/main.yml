@@ -4,4 +4,4 @@
   command: systemctl daemon-reload
 
 - name: restart sinopia
-  service: name=sinopia state=restarted
+  service: name=sinopia enabled=yes state=restarted
