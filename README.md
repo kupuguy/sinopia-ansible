@@ -14,7 +14,7 @@ ansible-galaxy install jagregory.sinopia
 
 ## Role Variables
 
-`sinopia_version`: The version of Sinopia to install (default: `1.2.2`)
+`sinopia_version`: The version of Sinopia to install (default: `1.4.0`)
 
 `sinopia_config`: The Sinopia configuration directory (default: `/etc/sinopia`)
 
